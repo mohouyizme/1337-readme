@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const { FORTY_TWO_ENDPOINT, FORTY_TWO_UID, FORTY_TWO_SECRET } = process.env
 
-export default function FortyTwo(req, _res, next) {
+export default function fortyTwo(req, _res, next) {
   req.fortyTwo = {
     getUser,
   }
