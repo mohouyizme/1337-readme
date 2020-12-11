@@ -16,6 +16,7 @@ handler.get(async (req, res) => {
     email: queryEmail,
     leet_logo,
     forty_two_network_logo,
+    dark,
   } = req.query
 
   const userData = await req.fortyTwo.getUser(login)
@@ -41,6 +42,7 @@ handler.get(async (req, res) => {
       getCursus && { grade: getCursus.grade, level: getCursus.level },
     leetLogo: leet_logo !== 'hide',
     fortyTwoLogo: forty_two_network_logo !== 'hide',
+    isDark: dark === 'true',
   }
 
   res.setHeader('Content-Type', 'image/svg+xml')
