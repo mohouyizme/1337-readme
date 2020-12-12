@@ -1,0 +1,26 @@
+{
+  "name": "1337-readme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mohouyizme/1337-readme.git",
+  "author": "Mohamed Ouyizme <mohouyizme@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "axios": "^0.21.0",
+    "formik": "^2.2.6",
+    "image-to-base64": "^2.1.1",
+    "next": "^10.0.3",
+    "next-connect": "^0.9.1",
+    "postcss": "^8.2.1",
+    "query-string": "^6.13.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.1"
+  }
+}
