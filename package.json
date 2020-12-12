@@ -13,10 +13,12 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "axios": "^0.21.0",
+    "formik": "^2.2.6",
     "image-to-base64": "^2.1.1",
     "next": "^10.0.3",
     "next-connect": "^0.9.1",
     "postcss": "^8.2.1",
+    "query-string": "^6.13.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.0.1"
