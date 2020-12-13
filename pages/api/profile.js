@@ -39,7 +39,13 @@ handler.get(async (req, res) => {
   } = userData
 
   const getCursus = cursuses.find(({ cursus: { slug } }) => slug === cursus)
-  const image = await imageToBase64(image_url)
+  let image
+  const imageCache = cache.get(`image:${login}`)
+  if (imageCache) image = imageCache
+  else {
+    image = await imageToBase64(image_url)
+    cache.put(`image:${login}`, image, 7200000)
+  }
 
   const user = {
     login,
