@@ -15,6 +15,7 @@
     "axios": "^0.21.0",
     "formik": "^2.2.6",
     "image-to-base64": "^2.1.1",
+    "memory-cache": "^0.2.0",
     "next": "^10.0.3",
     "next-connect": "^0.9.1",
     "postcss": "^8.2.1",
