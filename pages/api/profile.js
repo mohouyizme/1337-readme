@@ -1,4 +1,5 @@
 import nc from 'next-connect'
+import cache from 'memory-cache'
 import imageToBase64 from 'image-to-base64'
 import { renderToStaticMarkup } from 'react-dom/server'
 
@@ -19,7 +20,15 @@ handler.get(async (req, res) => {
     dark,
   } = req.query
 
-  const userData = await req.fortyTwo.getUser(login)
+  let userData
+  const userCache = cache.get(`login:${login}`)
+
+  if (userCache) userData = userCache
+  else {
+    userData = await req.fortyTwo.getUser(login)
+    cache.put(`login:${login}`, userData, 7200000)
+  }
+
   const {
     email,
     first_name,
@@ -30,7 +39,13 @@ handler.get(async (req, res) => {
   } = userData
 
   const getCursus = cursuses.find(({ cursus: { slug } }) => slug === cursus)
-  const image = await imageToBase64(image_url)
+  let image
+  const imageCache = cache.get(`image:${login}`)
+  if (imageCache) image = imageCache
+  else {
+    image = await imageToBase64(image_url)
+    cache.put(`image:${login}`, image, 7200000)
+  }
 
   const user = {
     login,
