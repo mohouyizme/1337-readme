@@ -16,3 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Cache profiles and images for 2 hours.
 - Add a CHANGELOG.md to this project 😜.
+
+# [1.0.2] - 2020-12-13
+
+### Changed
+
+- Fix background issues on profile card.
