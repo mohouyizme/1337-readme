@@ -111,7 +111,6 @@ export default function Profile({
               <div
                 style={{
                   marginBottom: 20,
-                  position: 'relative',
                   height: 40,
                   borderRadius: 10,
                   background: isDark ? '#333333' : '#ffffff',
@@ -120,25 +119,30 @@ export default function Profile({
               >
                 <div
                   style={{
-                    position: 'absolute',
                     height: 40,
                     width: `${levelProgress}%`,
                     borderRadius: 10,
                     background: '#a4de84',
                   }}
                 />
-                <p
+                <div
                   style={{
                     margin: 0,
-                    position: 'absolute',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    textShadow: isDark && '0 0 10px #000000',
+                    marginTop: -40,
+                    height: 40,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                   }}
                 >
-                  level {Math.floor(cursus.level)} - {levelProgress}%
-                </p>
+                  <p
+                    style={{
+                      textShadow: isDark && '0 0 10px #000000',
+                    }}
+                  >
+                    level {Math.floor(cursus.level)} - {levelProgress}%
+                  </p>
+                </div>
               </div>
             )}
             <div
