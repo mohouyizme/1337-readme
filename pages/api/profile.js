@@ -39,6 +39,7 @@ handler.get(async (req, res) => {
   } = userData
 
   const getCursus = cursuses.find(({ cursus: { slug } }) => slug === cursus)
+  const isPisciner = cursuses.length === 1 && cursuses[0].cursus_id === 6
   let image
   const imageCache = cache.get(`image:${login}`)
   if (imageCache) image = imageCache
@@ -52,9 +53,14 @@ handler.get(async (req, res) => {
     fullName: `${first_name} ${last_name}`,
     email: queryEmail !== 'hide' && email,
     image,
+    isPisciner,
     isStaff,
     cursus: !isStaff &&
-      getCursus && { grade: getCursus.grade, level: getCursus.level },
+      getCursus && {
+        grade: getCursus.grade,
+        name: getCursus.cursus.name,
+        level: getCursus.level,
+      },
     leetLogo: leet_logo !== 'hide',
     fortyTwoLogo: forty_two_network_logo !== 'hide',
     isDark: dark === 'true',

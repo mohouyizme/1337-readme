@@ -4,6 +4,7 @@ export default function Profile({
     fullName,
     email,
     image,
+    isPisciner,
     isStaff,
     cursus,
     leetLogo,
@@ -97,7 +98,15 @@ export default function Profile({
                     </td>
                   </tr>
                 )}
-                {cursus && (
+                {cursus && cursus.name && (
+                  <tr>
+                    <td style={{ paddingRight: 10 }}>cursus:</td>
+                    <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
+                      {cursus.name}
+                    </td>
+                  </tr>
+                )}
+                {cursus && cursus.grade && (
                   <tr>
                     <td style={{ paddingRight: 10 }}>grade:</td>
                     <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
@@ -157,11 +166,15 @@ export default function Profile({
                   fontSize: 14,
                   padding: '4px 6px',
                   borderRadius: 5,
-                  background: isStaff ? '#ff7979' : '#7e69ff',
+                  background: isPisciner
+                    ? '#ff69d8'
+                    : isStaff
+                    ? '#ff7979'
+                    : '#7e69ff',
                   color: '#ffffff',
                 }}
               >
-                {isStaff ? 'STAFF' : 'STUDENT'}
+                {isPisciner ? 'PISCINER' : isStaff ? 'STAFF' : 'STUDENT'}
               </div>
               <div
                 style={{

@@ -98,6 +98,9 @@ export default function ProfileCardGenerator() {
                     <option value="hide">hide</option>
                     <option value="42">42</option>
                     <option value="42cursus">42cursus</option>
+                    <option value="piscine-c-decloisonnee">
+                      Piscine C décloisonnée
+                    </option>
                   </select>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
