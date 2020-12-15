@@ -97,6 +97,14 @@ export default function Profile({
                     </td>
                   </tr>
                 )}
+                {cursus && cursus.name && (
+                  <tr>
+                    <td style={{ paddingRight: 10 }}>cursus:</td>
+                    <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
+                      {cursus.name}
+                    </td>
+                  </tr>
+                )}
                 {cursus && (
                   <tr>
                     <td style={{ paddingRight: 10 }}>grade:</td>

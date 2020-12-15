@@ -54,7 +54,11 @@ handler.get(async (req, res) => {
     image,
     isStaff,
     cursus: !isStaff &&
-      getCursus && { grade: getCursus.grade, level: getCursus.level },
+      getCursus && {
+        grade: getCursus.grade,
+        name: getCursus.cursus.name,
+        level: getCursus.level,
+      },
     leetLogo: leet_logo !== 'hide',
     fortyTwoLogo: forty_two_network_logo !== 'hide',
     isDark: dark === 'true',
