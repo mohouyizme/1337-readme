@@ -105,7 +105,7 @@ export default function Profile({
                     </td>
                   </tr>
                 )}
-                {cursus && (
+                {cursus && cursus.grade && (
                   <tr>
                     <td style={{ paddingRight: 10 }}>grade:</td>
                     <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
