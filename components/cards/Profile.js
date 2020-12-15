@@ -4,6 +4,7 @@ export default function Profile({
     fullName,
     email,
     image,
+    isPisciner,
     isStaff,
     cursus,
     leetLogo,
@@ -165,11 +166,15 @@ export default function Profile({
                   fontSize: 14,
                   padding: '4px 6px',
                   borderRadius: 5,
-                  background: isStaff ? '#ff7979' : '#7e69ff',
+                  background: isPisciner
+                    ? '#ff69d8'
+                    : isStaff
+                    ? '#ff7979'
+                    : '#7e69ff',
                   color: '#ffffff',
                 }}
               >
-                {isStaff ? 'STAFF' : 'STUDENT'}
+                {isPisciner ? 'PISCINER' : isStaff ? 'STAFF' : 'STUDENT'}
               </div>
               <div
                 style={{
