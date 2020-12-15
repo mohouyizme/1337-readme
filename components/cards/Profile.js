@@ -13,7 +13,8 @@ export default function Profile({
   },
 }) {
   const width = 450
-  const height = cursus ? 260 : 200
+  const hasFourProperties = cursus && email && cursus.grade
+  const height = cursus ? (hasFourProperties ? 275 : 260) : 200
   let levelProgress
 
   if (cursus)
