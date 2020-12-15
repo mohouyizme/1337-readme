@@ -22,3 +22,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Fix background issues on profile card.
+
+# [1.0.3] - 2020-12-15
+
+### Added
+
+- Add usage section to README.md
+
+### Changed
+
+- Fix profile card layout issues on mobile.
