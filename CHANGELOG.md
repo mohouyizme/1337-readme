@@ -10,30 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skills card.
 - Project score/reviews.
 
-# [1.0.1] - 2020-12-13
-
-### Added
-
-- Cache profiles and images for 2 hours.
-- Add a CHANGELOG.md to this project 😜.
-
-# [1.0.2] - 2020-12-13
-
-### Changed
-
-- Fix background issues on profile card.
-
-# [1.0.3] - 2020-12-15
-
-### Added
-
-- Add usage section to README.md
-
-### Changed
-
-- Fix profile card layout issues on mobile.
-
-# [1.0.4] - 2020-12-15
+## [1.0.4] - 2020-12-15
 
 ### Added
 
@@ -43,3 +20,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Add `Pisciner` tag to piscine candidates.
+
+## [1.0.3] - 2020-12-15
+
+### Added
+
+- Add usage section to README.md
+
+### Changed
+
+- Fix profile card layout issues on mobile.
+
+## [1.0.2] - 2020-12-13
+
+### Changed
+
+- Fix background issues on profile card.
+
+## [1.0.1] - 2020-12-13
+
+### Added
+
+- Cache profiles and images for 2 hours.
+- Add a CHANGELOG.md to this project 😜.
