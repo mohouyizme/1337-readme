@@ -192,9 +192,6 @@ export default function Profile({
               >
                 {leetLogo && (
                   <svg
-                    style={{
-                      marginRight: 20,
-                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="57"
                     height="15"
@@ -206,6 +203,9 @@ export default function Profile({
                 )}
                 {fortyTwoLogo && (
                   <svg
+                    style={{
+                      marginLeft: 20,
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="91"
                     height="15"
