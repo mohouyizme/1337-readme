@@ -28,6 +28,9 @@ export default function Profile({
       xmlns="http://www.w3.org/2000/svg"
     >
       <foreignObject width="100%" height="100%">
+        <style>
+          {`.slideUp{animation-duration:1s;animation-name:slideUp}.slideDown{animation-duration:1s;animation-name:slideDown}.flipInX{animation-duration:1s;animation-name:flipInX}@keyframes slideUp{from{opacity:0;transform:translateY(20px)}25%{opacity:0}to{opacity:1;transform:translateY(0)}}@keyframes slideDown{from{opacity:0;transform:translateY(-20px)}25%{opacity:0}to{opacity:1;transform:translateY(0)}}@keyframes flipInX{from{transform:perspective(400px) rotate3d(1,0,0,90deg);animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(1,0,0,-20deg);animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(1,0,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(1,0,0,-5deg)}to{transform:perspective(400px)}}`}
+        </style>
         <div xmlns="http://www.w3.org/1999/xhtml">
           <div
             style={{
@@ -52,6 +55,7 @@ export default function Profile({
               }}
             >
               <h2
+                className="slideDown"
                 style={{
                   margin: 0,
                   fontSize: 18,
@@ -61,6 +65,7 @@ export default function Profile({
               </h2>
             </div>
             <div
+              className="slideDown"
               style={{
                 marginBottom: 20,
                 display: 'flex',
@@ -119,6 +124,7 @@ export default function Profile({
             </div>
             {cursus && (
               <div
+                className="flipInX"
                 style={{
                   marginBottom: 20,
                   height: 40,
@@ -156,6 +162,7 @@ export default function Profile({
               </div>
             )}
             <div
+              className="slideUp"
               style={{
                 display: 'flex',
                 justifyContent: 'space-between',
@@ -185,9 +192,6 @@ export default function Profile({
               >
                 {leetLogo && (
                   <svg
-                    style={{
-                      marginRight: 20,
-                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="57"
                     height="15"
@@ -199,6 +203,9 @@ export default function Profile({
                 )}
                 {fortyTwoLogo && (
                   <svg
+                    style={{
+                      marginLeft: 20,
+                    }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="91"
                     height="15"
