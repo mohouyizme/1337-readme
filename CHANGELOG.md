@@ -40,6 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add cursus name to profile card.
 - Add `Piscine C décloisonnée` to cursuses list.
 
-## Changed
+### Changed
 
 - Add `Pisciner` tag to piscine candidates.
