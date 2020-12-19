@@ -10,6 +10,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skills card.
 - Project score/reviews.
 
+## [1.0.5] - 2020-12-19
+
+### Added
+
+- Add animation to profile card.
+
+### Changed
+
+- Enhance spacing on profile card logos.
+- Change `CHANGLOG` versions order.
+
 ## [1.0.4] - 2020-12-15
 
 ### Added
