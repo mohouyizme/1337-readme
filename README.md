@@ -1,14 +1,13 @@
 ![1337 Readme Logo](.github/images/1337-readme.svg)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Share your progress, skills, stats with the world via GitHub `README.md`
 
 [![code style: prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4)](https://github.com/prettier/prettier)
 [![code style: prettier](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://github.com/prettier/prettier)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Vercel](https://badgen.net/badge/icon/vercel/black?icon=vercel&label)](https://vercel.com)
+[![Vercel](https://badgen.net/badge/icon/vercel/black?icon=vercel&label)](https://vercel.com)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ---
 
@@ -25,10 +24,6 @@ Share your progress, skills, stats with the world via GitHub `README.md`
 3. Create a `README.md` file inside the repository.
 4. Paste the code snippet into the `README.md` file.
 5. Enjoy 🎉!
-
----
-
-[CHANGELOG.md](CHANGELOG.md) - [LICENSE](LICENSE)
 
 ## Contributors ✨
 
@@ -49,3 +44,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+---
+
+[CHANGELOG.md](CHANGELOG) - [LICENSE](LICENSE)
