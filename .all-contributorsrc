@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mohouyizme",
+      "name": "Mohamed Ouyizme",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23297439?v=4",
+      "profile": "https://ouyiz.me",
+      "contributions": [
+        "code",
+        "bug",
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "maintenance",
+        "platform",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "1337-readme",
+  "projectOwner": "mohouyizme",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
