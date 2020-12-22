@@ -1,4 +1,7 @@
 ![1337 Readme Logo](.github/images/1337-readme.svg)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Share your progress, skills, stats with the world via GitHub `README.md`
 
@@ -26,3 +29,22 @@ Share your progress, skills, stats with the world via GitHub `README.md`
 ---
 
 [CHANGELOG.md](CHANGELOG.md) - [LICENSE](LICENSE)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://ouyiz.me"><img src="https://avatars1.githubusercontent.com/u/23297439?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Ouyizme</b></sub></a><br /><a href="https://github.com/mohouyizme/1337-readme/commits?author=mohouyizme" title="Code">💻</a> <a href="https://github.com/mohouyizme/1337-readme/issues?q=author%3Amohouyizme" title="Bug reports">🐛</a> <a href="#content-mohouyizme" title="Content">🖋</a> <a href="https://github.com/mohouyizme/1337-readme/commits?author=mohouyizme" title="Documentation">📖</a> <a href="#design-mohouyizme" title="Design">🎨</a> <a href="#ideas-mohouyizme" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-mohouyizme" title="Maintenance">🚧</a> <a href="#platform-mohouyizme" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/mohouyizme/1337-readme/pulls?q=is%3Apr+reviewed-by%3Amohouyizme" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
