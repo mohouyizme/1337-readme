@@ -1,5 +1,8 @@
-export default function Profile({
-  user: {
+import { type } from "os"
+
+
+export default function Profile({ user }: { user: UserProfile }) {
+  const {
     login,
     fullName,
     email,
@@ -10,14 +13,13 @@ export default function Profile({
     leetLogo,
     fortyTwoLogo,
     isDark,
-  },
-}) {
+  } = user
   const width = 450
-  const hasFourProperties = cursus && email && cursus.grade
+  const hasFourProperties = cursus && email && typeof cursus !== 'boolean' && cursus.grade
   const height = cursus ? (hasFourProperties ? 275 : 260) : 200
   let levelProgress
 
-  if (cursus)
+  if (cursus && typeof cursus !== 'boolean')
     levelProgress = Math.floor((cursus.level - Math.floor(cursus.level)) * 100)
 
   return (
@@ -31,7 +33,7 @@ export default function Profile({
         <style>
           {`.slideUp{animation-duration:1s;animation-name:slideUp}.slideDown{animation-duration:1s;animation-name:slideDown}.flipInX{animation-duration:1s;animation-name:flipInX}@keyframes slideUp{from{opacity:0;transform:translateY(20px)}25%{opacity:0}to{opacity:1;transform:translateY(0)}}@keyframes slideDown{from{opacity:0;transform:translateY(-20px)}25%{opacity:0}to{opacity:1;transform:translateY(0)}}@keyframes flipInX{from{transform:perspective(400px) rotate3d(1,0,0,90deg);animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotate3d(1,0,0,-20deg);animation-timing-function:ease-in}60%{transform:perspective(400px) rotate3d(1,0,0,10deg);opacity:1}80%{transform:perspective(400px) rotate3d(1,0,0,-5deg)}to{transform:perspective(400px)}}`}
         </style>
-        <div xmlns="http://www.w3.org/1999/xhtml">
+        <svg xmlns="http://www.w3.org/1999/xhtml">
           <div
             style={{
               fontFamily: 'sans-serif',
@@ -104,7 +106,7 @@ export default function Profile({
                     </td>
                   </tr>
                 )}
-                {cursus && cursus.name && (
+                {cursus && typeof cursus !== 'boolean' && cursus.name && (
                   <tr>
                     <td style={{ paddingRight: 10 }}>cursus:</td>
                     <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
@@ -112,7 +114,7 @@ export default function Profile({
                     </td>
                   </tr>
                 )}
-                {cursus && cursus.grade && (
+                {cursus && typeof cursus !== 'boolean' && cursus.grade && (
                   <tr>
                     <td style={{ paddingRight: 10 }}>grade:</td>
                     <td style={{ color: isDark ? '#6390e5' : '#426ab8' }}>
@@ -122,7 +124,7 @@ export default function Profile({
                 )}
               </table>
             </div>
-            {cursus && (
+            {cursus && typeof cursus !== 'boolean' && (
               <div
                 className="flipInX"
                 style={{
@@ -153,7 +155,7 @@ export default function Profile({
                 >
                   <p
                     style={{
-                      textShadow: isDark && '0 0 10px #000000',
+                      textShadow: isDark ? '0 0 10px #000000' : 'none',
                     }}
                   >
                     level {Math.floor(cursus.level)} - {levelProgress}%
@@ -219,7 +221,7 @@ export default function Profile({
               </div>
             </div>
           </div>
-        </div>
+        </svg>
       </foreignObject>
     </svg>
   )

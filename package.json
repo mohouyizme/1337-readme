@@ -10,6 +10,10 @@
     "build": "next build",
     "start": "next start"
   },
+  "contributors": [
+    "Mehdi Bounya <mehdi.bounya@gmail.com>",
+    "Abdessamad El Bahri <reversablecode@outlook.com>"
+  ],
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "axios": "^0.21.0",
@@ -23,5 +27,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/image-to-base64": "^2.1.0",
+    "@types/memory-cache": "^0.2.1",
+    "@types/node": "14.14.14",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "typescript": "4.1.3"
   }
 }

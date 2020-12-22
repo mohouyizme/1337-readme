@@ -31,6 +31,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "ael-bahr",
+      "name": "Abdessamad El Bahri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56657108?v=4",
+      "profile": "https://reversablecode.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
