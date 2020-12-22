@@ -1,0 +1,42 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mohouyizme",
+      "name": "Mohamed Ouyizme",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23297439?v=4",
+      "profile": "https://ouyiz.me",
+      "contributions": [
+        "code",
+        "bug",
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "maintenance",
+        "platform",
+        "review"
+      ]
+    },
+    {
+      "login": "mehdibo",
+      "name": "Mehdi Bounya",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5004111?v=4",
+      "profile": "https://stackoverflow.com/users/2595450/mehdi-bounya",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "1337-readme",
+  "projectOwner": "mohouyizme",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

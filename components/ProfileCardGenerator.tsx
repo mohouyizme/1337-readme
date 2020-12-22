@@ -2,10 +2,36 @@ import queryString from 'query-string'
 import { Formik } from 'formik'
 import { useState } from 'react'
 
+type Query = {
+  login: string
+  cursus?: string
+  email?: string
+  dark?: string
+  leet_logo?: string
+  forty_two_network_logo?: string
+}
+
+type ProfileCardProps = {
+  login: string
+  cursus: string
+  showEmail: boolean
+  darkTheme: boolean
+  hideLeetLogo: boolean
+  hideFortyTwoNetworkLogo: boolean
+}
+
 export default function ProfileCardGenerator() {
   const [cardImage, setCardImage] = useState(
     '/api/profile?login=ozaazaa&cursus=42&email=hide'
   )
+  const initialValues: ProfileCardProps = {
+    login: 'ozaazaa',
+    cursus: '42',
+    showEmail: false,
+    darkTheme: false,
+    hideLeetLogo: false,
+    hideFortyTwoNetworkLogo: false,
+  }
 
   function generateProfileCard({
     login,
@@ -47,16 +73,9 @@ export default function ProfileCardGenerator() {
           </div>
         </div>
         <Formik
-          initialValues={{
-            login: 'ozaazaa',
-            cursus: '42',
-            showEmail: false,
-            darkTheme: false,
-            hideLeetLogo: false,
-            hideFortyTwoNetworkLogo: false,
-          }}
-          onSubmit={(values) => {
-            setCardImage(null)
+          initialValues={initialValues}
+          onSubmit={(values: ProfileCardProps) => {
+            setCardImage('')
             generateProfileCard(values)
           }}
         >
