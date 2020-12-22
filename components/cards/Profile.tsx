@@ -1,6 +1,3 @@
-import { type } from "os"
-
-
 export default function Profile({ user }: { user: UserProfile }) {
   const {
     login,

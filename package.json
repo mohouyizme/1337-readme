@@ -10,10 +10,6 @@
     "build": "next build",
     "start": "next start"
   },
-  "contributors": [
-    "Mehdi Bounya <mehdi.bounya@gmail.com>",
-    "Abdessamad El Bahri <reversablecode@outlook.com>"
-  ],
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "axios": "^0.21.0",
