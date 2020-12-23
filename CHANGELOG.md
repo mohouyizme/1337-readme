@@ -10,6 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skills card.
 - Project score/reviews.
 
+## [1.1.0] - 2020-12-23
+
+### Changed
+
+- 1337 Readme now is rewritten in TypeScript 🎉 (Thanks to @ReversableCode).
+- You can write case insensitive logins in the website (Thanks to @mehdibo).
+
 ## [1.0.5] - 2020-12-19
 
 ### Added
