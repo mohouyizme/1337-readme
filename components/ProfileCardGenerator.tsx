@@ -40,8 +40,8 @@ export default function ProfileCardGenerator() {
     darkTheme,
     hideLeetLogo,
     hideFortyTwoNetworkLogo,
-  }) {
-    const query = { login: login.toLowerCase() }
+  }: ProfileCardProps) {
+    const query: Query = { login: login.toLowerCase() }
     if (cursus !== 'hide') query.cursus = cursus
     if (!showEmail) query.email = 'hide'
     if (darkTheme) query.dark = 'true'
