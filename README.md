@@ -14,9 +14,9 @@ Share your progress, skills, stats with the world via GitHub `README.md`
 
 ## Preview
 
-[![42 Profile Card](https://1337-readme.vercel.app/api/profile?cursus=42cursus&login=azorkane)](https://github.com/mohouyizme/1337-readme)
+[![42 Profile Card](https://1337-readme-xi.vercel.app/api/profile?cursus=42cursus&login=azorkane)](https://github.com/mohouyizme/1337-readme)
 
-[![42 Profile Card](https://1337-readme.vercel.app/api/profile?dark=true&login=toxiic)](https://github.com/mohouyizme/1337-readme)
+[![42 Profile Card](https://1337-readme-xi.vercel.app/api/profile?dark=true&login=toxiic)](https://github.com/mohouyizme/1337-readme)
 
 ## Usage
 
