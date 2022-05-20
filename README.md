@@ -14,13 +14,13 @@ Share your progress, skills, stats with the world via GitHub `README.md`
 
 ## Preview
 
-[![42 Profile Card](https://1337-readme.vercel.app/api/profile?cursus=42cursus&login=azorkane)](https://github.com/mohouyizme/1337-readme)
+[![42 Profile Card](https://1337-readme-xi.vercel.app/api/profile?cursus=42cursus&login=azorkane)](https://github.com/mohouyizme/1337-readme)
 
-[![42 Profile Card](https://1337-readme.vercel.app/api/profile?dark=true&login=toxiic)](https://github.com/mohouyizme/1337-readme)
+[![42 Profile Card](https://1337-readme-xi.vercel.app/api/profile?dark=true&login=toxiic)](https://github.com/mohouyizme/1337-readme)
 
 ## Usage
 
-1. Go to [1337-readme.vercel.app](https://1337-readme.vercel.app) and generat code snippet for your profile card.
+1. Go to [1337-readme-xi.vercel.app](https://1337-readme-xi.vercel.app) and generat code snippet for your profile card.
 2. Create a repository that's the same name as your GitHub username. For example, my GitHub username is `mohouyizme` so I created a new repository with the name `mohouyizme`. The letter-casing must match your GitHub username.
 3. Create a `README.md` file inside the repository.
 4. Paste the code snippet into the `README.md` file.
