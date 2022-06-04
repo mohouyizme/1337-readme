@@ -68,7 +68,7 @@ export default function ProfileCardGenerator() {
             className="p-3 mt-2 overflow-x-auto font-mono text-xs rounded-lg select-all bg-gray-50"
             style={{ maxWidth: 450 }}
           >
-            [![42 Profile Card](https://1337-readme.vercel.app{cardImage}
+            [![42 Profile Card](https://1337-readme-xi.vercel.app{cardImage}
             )](https://github.com/mohouyizme/1337-readme)
           </div>
         </div>
