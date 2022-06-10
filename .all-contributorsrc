@@ -51,6 +51,15 @@
         "maintenance",
         "infra"
       ]
+    },
+    {
+      "login": "EniddeallA",
+      "name": "EniddeallA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37194558?v=4",
+      "profile": "https://github.com/EniddeallA",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

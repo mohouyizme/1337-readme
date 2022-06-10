@@ -6,7 +6,7 @@ Share your progress, skills, stats with the world via GitHub `README.md`
 [![code style: prettier](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.dev)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Vercel](https://badgen.net/badge/icon/vercel/black?icon=vercel&label)](https://vercel.com)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ---
@@ -38,6 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://stackoverflow.com/users/2595450/mehdi-bounya"><img src="https://avatars2.githubusercontent.com/u/5004111?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mehdi Bounya</b></sub></a><br /><a href="https://github.com/mohouyizme/1337-readme/commits?author=mehdibo" title="Code">💻</a> <a href="#ideas-mehdibo" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://reversablecode.github.io"><img src="https://avatars3.githubusercontent.com/u/56657108?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abdessamad El bahri</b></sub></a><br /><a href="https://github.com/mohouyizme/1337-readme/commits?author=ReversableCode" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/lpieri"><img src="https://avatars.githubusercontent.com/u/34377510?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Louise</b></sub></a><br /><a href="#maintenance-lpieri" title="Maintenance">🚧</a> <a href="#infra-lpieri" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/EniddeallA"><img src="https://avatars.githubusercontent.com/u/37194558?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EniddeallA</b></sub></a><br /><a href="https://github.com/mohouyizme/1337-readme/commits?author=EniddeallA" title="Code">💻</a></td>
   </tr>
 </table>
 
